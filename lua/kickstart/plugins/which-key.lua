@@ -67,7 +67,7 @@ return {
         { '<leader>b', group = '[B]uffer' },
         { '<leader>bc', '<cmd>bd!<cr>', desc = '[C]lose current buffer' },
         { '<leader>bh', '<cmd>bprev<cr>', desc = 'Switch to previous buffer' },
-        { '<leader>bl', '<cmd>bnext<cr>', desc = 'Switch to nex buffer' },
+        { '<leader>bl', '<cmd>bnext<cr>', desc = 'Switch to next buffer' },
         -- File
         { '<leader>f', group = '[File]' },
         { '<leader>fb', ':Telescope file_browser<cr>', desc = '[B]rowse files' },
